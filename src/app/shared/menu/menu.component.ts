@@ -44,7 +44,8 @@ export class MenuComponent implements OnInit {
       },
       {
         label: 'Pipes Personalizados',
-        icon: 'pi pi-android'
+        icon: 'pi pi-cog',
+        routerLink: 'ordenar'
       }
   ];
   }
